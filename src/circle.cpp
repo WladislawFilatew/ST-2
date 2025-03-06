@@ -4,9 +4,9 @@
 #include "circle.h"
 
 void Circle::setRadius(double radius) {
-    if (radius <= 0) 
+    if (radius <= 0)
         this->radius = 0;
-    else 
+    else
         this->radius = radius;
     ference = 2 * M_PI * this->radius;
     area = M_PI * this->radius * radius;
@@ -22,7 +22,7 @@ void Circle::setFerence(double ference) {
 }
 
 void Circle::setArea(double area) {
-    if (area <= 0) 
+    if (area <= 0)
         this->area = 0;
     else
         this->area = area;

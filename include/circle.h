@@ -4,11 +4,11 @@
 #include <cstdint>
 
 class Circle {
-private:
+ private:
     double radius = 0; // Радиус
     double ference = 0; // Длина окружности
     double area = 0; // Площадь круга
-public:
+ public:
     void setRadius(double radius);
     void setFerence(double ference);
     void setArea(double area);
