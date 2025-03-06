@@ -20,6 +20,5 @@ double track_cost() {
     circle.setRadius(4);
     double s = circle.getArea() - S_b;
 
-    double sum = s * 1000 + circle.getFerence() * 2000;
-    return sum;
+    return s * 1000 + circle.getFerence() * 2000;
 }
